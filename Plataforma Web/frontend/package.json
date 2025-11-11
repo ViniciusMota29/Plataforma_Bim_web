@@ -1,0 +1,58 @@
+{
+  "name": "bim-fm-platform-frontend",
+  "version": "1.0.0",
+  "description": "BIM-FM Platform Frontend - React + IFC.js",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "axios": "^1.6.2",
+    "three": "^0.158.0",
+    "web-ifc": "^0.0.52",
+    "web-ifc-viewer": "^1.0.30",
+    "@react-three/fiber": "^8.15.11",
+    "@react-three/drei": "^9.88.13",
+    "recharts": "^2.10.3",
+    "date-fns": "^2.30.0",
+    "react-hook-form": "^7.48.2",
+    "react-query": "^3.39.3",
+    "@tanstack/react-query": "^5.12.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@types/three": "^0.158.3",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8",
+    "typescript": "^5.3.3",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+
